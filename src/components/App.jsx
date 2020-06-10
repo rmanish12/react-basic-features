@@ -1,18 +1,22 @@
 import React from 'react'
+import Parent from './lifecycle/Parent.jsx'
+import DerivedState from './lifecycle/DerivedState.jsx'
+import ErrorBoundary from './lifecycle/ErrorBoundary.jsx'
+import MyWidget from './lifecycle/MyWidget.jsx'
 
 class App extends React.Component {
 
-    constructor(props) {
-        super(props)
-
-        this.setState({
-            name: 'randome'
-        })
-    }
-
     render() {
-        return(
-            <h1>Test Application</h1>
+        return (
+            <>
+                <Parent title="Parent component" />
+                <hr/>
+                <DerivedState />
+                <hr/>
+                <ErrorBoundary>
+                    <MyWidget />
+                </ErrorBoundary>
+            </>
         )
     }
 }
