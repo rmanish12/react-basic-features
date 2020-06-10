@@ -6,6 +6,7 @@
 
   - master: basic template
   - lifecycle: lifecycle methods of class components
+  - hooks: react hooks
   
 #### LifeCycle methods
 
@@ -22,7 +23,18 @@
 10. componentDidCatch(error, errInfo)
 ```
 
-### Files in lifecycle folder
+##### Files in lifecycle folder
 - Parent.jsx and Child.jsx: logs various life cycle methods
 - DerivedState.jsx: shows how to use ```static getDerivedStateFromProps()```
 - ErrorHandling.jsx and MyWidget.jsx: shows how to use ```static getDerivedStateFromError()``` and ```componentDidCatch()``` and show fallback UI in case of error
+
+#### React hooks
+Commonly used hooks are
+```
+useState()
+useEffect()
+```
+
+##### Files in hooks folder
+- Add.jsx: useState() to set two values in state
+- Display.jsx: useEffect()
