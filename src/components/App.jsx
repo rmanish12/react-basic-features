@@ -6,6 +6,8 @@ import MyWidget from './lifecycle/MyWidget.jsx'
 
 import Add from './hooks/Add.jsx'
 
+import Display from './hoc/Display.jsx'
+
 class App extends React.Component {
 
     render() {
@@ -20,6 +22,8 @@ class App extends React.Component {
                 </ErrorBoundary>
                 <hr/> */}
                 <Add />
+                <hr />
+                <Display />
             </>
         )
     }
