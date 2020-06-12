@@ -8,6 +8,8 @@ import Add from './hooks/Add.jsx'
 
 import Display from './hoc/Display.jsx'
 
+import NestedExample from './routing/NestingExample.jsx'
+
 class App extends React.Component {
 
     render() {
@@ -24,6 +26,8 @@ class App extends React.Component {
                 <Add />
                 <hr />
                 <Display />
+
+                <NestedExample />
             </>
         )
     }

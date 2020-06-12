@@ -7,6 +7,8 @@
   - master: basic template
   - lifecycle: lifecycle methods of class components
   - hooks: react hooks
+  - hoc: higher order component
+  - routing: React routing with v5.2^
   
 #### LifeCycle methods
 
@@ -38,3 +40,12 @@ useEffect()
 ##### Files in hooks folder
 - Add.jsx: useState() to set two values in state
 - Display.jsx: useEffect()
+- 
+
+#### React HOC
+Here we show two way of using HOC.
+First is where we only represent a component in a new way.
+Second, where we take a component as an argument, along with other arguments, perform a logic, and return a component.
+
+#### React Routing
+Here it is shown how we can use nested routing using react routing hooks and react-router-dom
